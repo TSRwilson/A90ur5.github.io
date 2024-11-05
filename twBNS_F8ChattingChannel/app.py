@@ -127,4 +127,4 @@ if __name__ == '__main__':
         key = f.read()
     rsakey = RSA.importKey(key)
     alive_check = ["", ""]
-    socketio.run(app, host='0.0.0.0', port = 80)
+    socketio.run(app, host='210.242.118.5', port = 10900)
